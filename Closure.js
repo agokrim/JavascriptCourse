@@ -1,4 +1,5 @@
 /*
+source : https://medium.com/swlh/javascript-closures-simplified-262d935466ec
 What is a closure?
 A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables
 The closure has three scope chains:
