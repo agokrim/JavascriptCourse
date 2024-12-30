@@ -45,3 +45,24 @@ const counts = items.reduce((accumulator, currentValue) => {
 console.log(counts); 
 // Output: { apple: 3, banana: 2, orange: 1 }
 
+
+
+
+const number =[1,8,9,2,0]
+
+console.log(Math.max(...number))
+// Output:9
+
+// Create an array of 10 million random numbers between 0 and 100
+const bigArray = new Array(10_000_000).fill().map(() => Math.random() * 100);
+
+// Use reduce to find the maximum value in the array
+const maxValue = bigArray.reduce(function(p, c) {
+  // Compare the previous max (p) with the current value (c)
+  return Math.max(p, c);
+}, -Infinity); // Start with the smallest possible number
+
+console.log(maxValue); // Output: the largest random number in the array
+
+// Output:99.99999560868869
+
